@@ -1,0 +1,89 @@
+body {
+    background-color: #222;
+}
+
+.control-wrapper {
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+}
+
+.simon-wrapper {
+    background-color: #333;
+    border: 5px solid black;
+    border-radius: 50%;
+    height: 300px;
+    margin: 0 auto;
+    margin-top: 10%;
+    overflow: hidden;
+    position: relative;
+    width: 300px;
+}
+
+.simon-info {
+    background-color: #000;
+    border-radius: 50%;
+    color: white;
+    height: 180px;
+    margin-top: 50px;
+    margin-left: 55px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 180px;
+}
+.simon-info h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20%;
+    text-align: center;
+    
+}
+.simon-info span {
+    display: inline-block;
+    font-weight: bold;
+    text-align: center;
+}
+.simon-info span.info {
+    margin-left: 30%;
+}
+
+.btn-game {
+    float: left;
+    height: 50%;
+    overflow: hidden;
+    width: 50%;
+}
+.btn-game.top {
+    border-bottom: 3px solid black;
+}
+.btn-game.bottom {
+    border-top: 3px solid black;
+}
+
+.btn-game.right {
+    border-left: 3px solid black;
+}
+
+.btn-game.left {
+    border-right: 3px solid black;
+}
+
+.btn-game.green {
+    background-color: rgba(127, 255, 0, 0.9);
+}
+
+.btn-game.red {
+    background-color: rgba(220, 20, 60, 0.9);
+}
+
+.btn-game.yellow {
+    background-color: rgba(255, 255, 0, 0.9);
+}
+.btn-game.blue {
+    background-color: rgba(0, 255, 255, 0.9);
+}
+
+.btn-press {
+    background-color: rgba(255,255,255,1) !important;
+}
